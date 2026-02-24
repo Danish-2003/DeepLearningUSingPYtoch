@@ -1,73 +1,108 @@
 🧠 Deep Learning with PyTorch
+<div align="center">
 
 
 
 
-This repository documents my Deep Learning journey implemented using PyTorch through structured course notebooks.
 
-I had previously completed Deep Learning using Keras (TensorFlow), but I revisited the entire course using PyTorch to gain deeper implementation-level understanding of neural networks, autograd, and training mechanics.
 
-🚀 Objectives
 
-Strengthen deep learning fundamentals
 
-Understand backpropagation at implementation level
+</div>
+📌 Overview
 
-Build custom training loops
+This repository documents my Deep Learning journey using PyTorch through structured course notebooks.
 
-Work with PyTorch dynamic computation graphs
+I had previously completed Deep Learning using Keras (TensorFlow).
+To strengthen my implementation-level understanding, I revisited the entire course using PyTorch.
 
-Improve debugging and tensor manipulation skills
+The goal was simple:
+
+Move from using models ➝ to understanding how they work internally.
+
+🎯 Objectives
+
+🔹 Strengthen deep learning fundamentals
+
+🔹 Understand backpropagation at implementation level
+
+🔹 Build custom training loops
+
+🔹 Work with PyTorch autograd & dynamic computation graphs
+
+🔹 Improve debugging & tensor manipulation skills
 
 📚 Topics Covered
+🧩 Core Foundations
 
 Artificial Neural Networks (ANN)
 
-Convolutional Neural Networks (CNN)
-
-Recurrent Neural Networks (RNN / LSTM)
-
 Forward & Backward Propagation
 
-Loss Functions & Optimizers
+Loss Functions & Optimization
 
-Regularization Techniques
+Gradient Descent Variants
 
-Model Evaluation
+🖼 Computer Vision
 
-GPU Acceleration (CUDA basics)
+Convolutional Neural Networks (CNN)
+
+Feature extraction
+
+Model evaluation
+
+🔁 Sequence Modeling
+
+Recurrent Neural Networks (RNN)
+
+LSTM Basics
+
+⚙️ Training & Optimization
+
+Regularization techniques
+
+Model evaluation strategies
+
+GPU acceleration (CUDA basics)
 
 📂 Repository Structure
 
 This repository mainly contains:
 
-📓 Jupyter Notebooks for each concept
+📁 notebooks/
+    ├── ANN_basics.ipynb
+    ├── CNN_implementation.ipynb
+    ├── RNN_LSTM.ipynb
+    └── Training_loops.ipynb
 
-📊 Practice implementations
+📓 Concept-wise Jupyter Notebooks
 
-🧪 Experiments with different architectures
+🧪 Practical implementations
 
-Each notebook focuses on understanding concepts step-by-step with practical implementation.
+📊 Experiments with different architectures
 
-🧪 Key Learning Outcomes
+Each notebook focuses on step-by-step implementation with clear conceptual understanding.
 
-✔ Stronger understanding of gradients & autograd
-✔ Manual training loop implementation
-✔ Tensor operations & debugging
+🧠 Key Learning Outcomes
+
+✔ Deep understanding of gradients & autograd mechanics
+✔ Writing manual training loops
+✔ Handling tensor shape mismatches
+✔ Debugging deep learning pipelines
 ✔ Performance tuning & optimization
-✔ Clear conceptual understanding beyond high-level APIs
 
-📌 Why Re-learn Using PyTorch?
+🚀 Why PyTorch After Keras?
+Keras	PyTorch
+High-level abstraction	Low-level flexibility
+Quick prototyping	Research-friendly
+Minimal control	Full training control
 
-Keras provides high-level abstraction.
-PyTorch provides deeper control and flexibility.
-
-Re-learning helped me move from using models → to understanding how they actually work.
+Re-learning using PyTorch helped me gain stronger intuition about training dynamics and model behavior.
 
 📈 Next Goals
 
-Advanced architectures (Transformers, Attention)
+🔥 Transformers & Attention mechanisms
 
-Real-world project implementations
+🏗 Real-world project implementations
 
-Model deployment & production ML
+🚀 Model deployment & production ML
